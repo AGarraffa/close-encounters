@@ -1,0 +1,44 @@
+.topnav-flex-container {
+  display: flex;
+  width: 100vw;
+  height: 60px;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  border-bottom: 2px solid var(--bluefade);
+}
+
+.close {
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: var(--blue);
+  width: fit-content;
+  /* justify-self: start; */
+}
+
+.icon-container {
+  /* justify-self: end; */
+  width: fit-content;
+}
+
+/* all icon styling */
+.icon-container i {
+  padding: 0 10px;
+  color: var(--blue);
+}
+
+.active i {
+  color: var(--red);
+}
+
+a {
+  text-decoration: none;
+}
+
+.active {
+  color: var(--red);
+}
